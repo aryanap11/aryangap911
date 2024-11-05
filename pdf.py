@@ -124,7 +124,7 @@ def process_pdf(uploaded_file):
 def main_app():
     st.title("PDF Background Cleaner")
     st.write(
-        "Easily transform PDFs with dark backgrounds into print-friendly, high-contrast documents and thank me if it was useful to you through the "Connect with Me" section!")
+        "Easily transform PDFs with dark backgrounds into print-friendly, high-contrast documents and thank me if it was useful to you through the 'Connect with Me' section!")
     uploaded_file = st.file_uploader(
         "Upload your PDF file to begin", type=["pdf"])
 
