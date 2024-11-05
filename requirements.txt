@@ -1,0 +1,4 @@
+pymupdf   # for the fitz module (PyMuPDF)
+Pillow    # for image processing (PIL module)
+streamlit  # for Streamlit web app functionality
+streamlit-option-menu  # for sidebar navigation menu
