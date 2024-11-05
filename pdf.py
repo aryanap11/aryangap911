@@ -90,7 +90,7 @@ def process_pdf(uploaded_file):
         # Process each page in the PDF
         for page_number in range(len(pdf_document)):
             page = pdf_document.load_page(page_number)
-            zoom = 1.0  # 2.0 will double the resolution (increase DPI)
+            zoom = 2.0  # 2.0 will double the resolution (increase DPI)
             mat = fitz.Matrix(zoom, zoom)  # Create transformation matrix
 
             # Render page to a high-resolution image
