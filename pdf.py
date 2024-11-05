@@ -80,6 +80,7 @@ def show_feedback():
         """, unsafe_allow_html=True)
 
 
+
 def process_pdf(uploaded_file):
     try:
         # Open the PDF file
